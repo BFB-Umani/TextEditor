@@ -24,7 +24,6 @@ public class Editor extends JFrame {
     // test comments in branch
 
 
-
     Editor() {
 
         System.out.println("trying branch change");
