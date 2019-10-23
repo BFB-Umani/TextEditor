@@ -24,7 +24,6 @@ public class Editor extends JFrame {
 
     Editor() {
 
-        System.out.println("trying branch change more master");
         add(areaPanel);
         areaPanel.setLayout(new BorderLayout());
         areaPanel.add(area, CENTER);
