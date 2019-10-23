@@ -1,5 +1,7 @@
 package lektion10.Nackademin;
 
+import org.w3c.dom.ls.LSOutput;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.print.PrinterException;
@@ -19,10 +21,13 @@ public class Editor extends JFrame {
     JButton bPrint = new JButton("print");
     JButton bExit = new JButton("exit");
 
+    // test comments in branch
+
 
 
     Editor() {
 
+        System.out.println("trying branch change");
         add(areaPanel);
         areaPanel.setLayout(new BorderLayout());
         areaPanel.add(area, CENTER);
