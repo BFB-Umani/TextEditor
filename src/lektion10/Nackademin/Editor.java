@@ -71,7 +71,6 @@ public class Editor extends JFrame {
         tArea.setFont(new Font("MONOSPACED", Font.PLAIN, 12));
         pack();
         this.setLocation(500, 300);
-        this.setVisible(true);
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
 }
